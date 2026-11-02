@@ -1,0 +1,11 @@
+[project]
+name = "data440-f26-google-drive-api-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
+]
