@@ -2,8 +2,12 @@
 
 ## Contents
 
-1. Reading a .csv stored on Google Drive
-2. Creating a fallback "dummy" API for demo purposes when a user does not have / want to obtain API credentials.
+1. Reading a .csv stored on Google Drive using the `reqests` library.
+2. Creating a fallback "dummy" API for demo and tesing purposes, e.g. if a user does not have / want to obtain API credentials, and/or to maintain partial functionality if the service is offline.
+
+## Notes
+
+The basic pattern can be extended to write data as well and should be appropriate for smaller applications and datasets. For larger applications, you might consider using their official SDK (https://docs.cloud.google.com/sdk/docs), but my advice would be to stick with the simple approach unless you are sure you need to upgrade.
 
 ## Getting an API Key and File ID:
 
